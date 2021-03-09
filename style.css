@@ -14,6 +14,7 @@ body {
 
 .container {
     background: rgb(248, 224, 129);
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,10 +23,9 @@ body {
     background: rgb(111, 247, 77);
     min-height: 80vh;
     width: 35rem;
-    border-color: black;
-    box-shadow: rgb(204, 28, 28);
+    box-shadow: rgb(168, 168, 168);
 }
 .image img {
-    max-height: 90%;
     width: 100%;
+    box-shadow: black;
 }
