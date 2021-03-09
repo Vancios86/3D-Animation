@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgb(248, 224, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: rgb(111, 247, 77);
+    min-height: 80vh;
+    width: 35rem;
+    border-color: black;
+    box-shadow: rgb(204, 28, 28);
+}
+.image img {
+    max-height: 90%;
+    width: 100%;
+}
