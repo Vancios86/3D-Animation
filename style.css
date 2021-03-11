@@ -10,22 +10,87 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 900px;
 }
 
 .container {
-    background: rgb(248, 224, 129);
-    width: 50%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.card {
+    background: rgb(197, 255, 105);
+    min-height: 80vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 10px 10px;
+    transform-style: preserve-3d;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3), 0px 0px 50px rgba(0, 0, 0, 0.3)
+}
+.image {
+    min-height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card {
-    background: rgb(111, 247, 77);
-    min-height: 80vh;
-    width: 35rem;
-    box-shadow: rgb(168, 168, 168);
-}
 .image img {
     width: 100%;
-    box-shadow: black;
+    border-radius: 30px;
+    transition: all 0.75s ease-out;
+   
+}
+.info h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.75s ease-out;
+}
+.info h3 {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: rgb(34, 33, 33);
+    transition: all 0.75s ease-out;
+}
+.sizes {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 5px;
+    transition: all 0.75s ease-out;
+}
+.sizes button {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 30px; 
+    transition: all 0.75s ease-out;
+}
+.sizes button:hover {
+    background: khaki;
+}
+.purchase {
+    margin-top: 5rem;
+    transition: all 0.75s ease-out; 
+}
+.purchase button {
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    background: #ffffff;
+    cursor: pointer; 
+      
+}
+.purchase button:hover {
+    background: rgb(248, 74, 5);
 }
