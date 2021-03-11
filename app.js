@@ -19,8 +19,8 @@ container.addEventListener("mousemove", e => {
 //animate in
 container.addEventListener("mouseenter", e => {
     card.style.transition = "none";
-    title.style.transform = "translateZ(150px)"
-    image.style.transform = "translateZ(200px)"
+    title.style.transform = "translateZ(200px)"
+    image.style.transform = "translateZ(160px)"
     purchase.style.transform = "translateZ(125px)"
     sizes.style.transform = "translateZ(100px)"
     subtitle.style.transform = "translateZ(125px)"

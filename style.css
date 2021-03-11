@@ -47,6 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     transition: all 0.75s ease-out;
+    z-index: 1;
 }
 .info h3 {
     font-size: 1.3rem;
@@ -56,12 +57,14 @@ body {
     font-weight: lighter;
     color: rgb(34, 33, 33);
     transition: all 0.75s ease-out;
+    
 }
 .sizes {
     display: flex;
     justify-content: space-between;
     margin: 30px 5px;
     transition: all 0.75s ease-out;
+    
 }
 .sizes button {
     padding: 0.5rem 2rem;
